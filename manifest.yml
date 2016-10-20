@@ -1,0 +1,8 @@
+---
+applications:
+# replace the 'host' variable below with your own unique one, as this one can be already taken
+- name: <your_app_name>
+  memory: 128M
+  instances: 1
+  host: <your_app_name>
+  path: ./php
